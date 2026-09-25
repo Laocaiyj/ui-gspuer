@@ -1,0 +1,4 @@
+interface:
+  display_name: "ui-gspuer"
+  short_description: "Research and combine six methods for distinctive Web UI"
+  default_prompt: "Use $ui-gspuer to preserve the current product and functionality, research relevant themes and examples, select a suitable combination of the six core methods with clear roles, choose the implementation as needed, and verify the actual result."

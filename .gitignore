@@ -1,0 +1,24 @@
+# Operating-system metadata
+.DS_Store
+._*
+Thumbs.db
+
+# Local research, examples, and generated outputs
+Example/
+development/
+outputs/
+artifacts/
+*.log
+
+# Local environments and credentials
+.env
+.env.*
+!.env.example
+.venv/
+__pycache__/
+*.py[cod]
+node_modules/
+
+# Editor-local state
+.idea/
+.vscode/
