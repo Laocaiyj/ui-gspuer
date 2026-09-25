@@ -109,6 +109,7 @@ Implementation requires project-file access; current design research requires br
 | --- | --- |
 | [SKILL.md](SKILL.md) | Agent entry point, task routing, workflow, and completion criteria |
 | [Design research](references/design-research.md) | Source selection, observation, and transfer to the current product |
+| [Art direction and concept images](references/art-direction.md) | Visual ideas, composition, image-generation briefs, and artistic review |
 | [Method selection](references/design-directions.md) | Roles of the six core methods, combinations, and links to nine implementation recipes |
 | [Implementation specification](references/implementation-spec.md) | Concrete layout, material, state, and implementation decisions |
 | [Direction acceptance](references/direction-acceptance.md) | Observable criteria for selected methods and their combined behavior |

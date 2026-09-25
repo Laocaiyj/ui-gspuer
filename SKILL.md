@@ -1,6 +1,6 @@
 ---
 name: ui-gspuer
-description: Research and combine Liquid Glass, Tactile, Expressive, Shader, Spatial, and Hypermaterial methods to build distinctive Web UI suited to the product. Use for interface design, visual redesign, and correcting generic template aesthetics. Not for backend-only work.
+description: Research and combine Liquid Glass, Tactile, Expressive, Shader, Spatial, and Hypermaterial methods for distinctive Web UI. Use for interface concepts, frontend design, visual redesign, and correcting generic template aesthetics. Not for backend-only work.
 ---
 
 # ui-gspuer
@@ -11,13 +11,14 @@ Research and combine six core methods—Liquid Glass, Tactile UI, Material 3 Exp
 
 | Request | Read and act |
 | --- | --- |
-| New interface, full redesign, or substantial mismatch with the brief | Read [design research](references/design-research.md) and [method selection](references/design-directions.md), write a short specification, then implement a representative region and the full flow |
+| Static interface example, concept image, or visual mockup | Follow [art direction and concept images](references/art-direction.md): research, select a composition, prepare the image brief, generate and inspect the image; stop at the requested visual deliverable |
+| New interface, full redesign, or substantial mismatch with the brief | Read [design research](references/design-research.md), [art direction](references/art-direction.md), and [method selection](references/design-directions.md), write a short specification, then implement a representative region and the full flow |
 | Inspiration, case studies, or design knowledge only | Use [design research](references/design-research.md) to deliver sources and transferable findings; do not implement a page without that scope |
 | Local button, spacing, or state adjustment | Read affected code and the existing specification; consult the [relevant recipe](references/design-directions.md) when its mechanism is involved; keep the change local |
 | Review or correct generic template aesthetics | Preserve the product and requested direction; use [visual review](references/visual-quality.md). Report findings for review-only requests; implement corrections when requested |
 | Model comparison or repeated failures | Use [evaluation and iteration](references/evaluation-loop.md); hold the task and acceptance criteria constant and diagnose from evidence |
 
-Read only relevant sections. Reuse existing directions, specifications, and validated components. Small changes do not require repeating research or planning.
+Read only relevant sections. Reuse existing directions, specifications, and validated components. Small changes do not require repeating research or planning. Establish whether the requested deliverable is an image, prototype, or implemented interface; the implementation steps below do not expand an image-only task into application development.
 
 ## 1. Establish the product and design basis
 
@@ -34,7 +35,7 @@ Complete when the main task, required content, visual basis, and suitable expres
 ## 2. Write a short implementation specification
 
 - Use the [specification guide](references/implementation-spec.md) to decide concrete first-viewport structure, sizing rules, tokens, representative region, key states, narrow-screen behavior, fallback, and evidence. Adjectives such as premium, modern, or immersive are insufficient.
-- When a new design is open-ended, briefly compare viable compositions and select one. Implement that decision consistently rather than selecting a new style for each component. Revise affected decisions when usability conflicts emerge and explain why.
+- When a new design is open-ended or aesthetically underdeveloped, use [art direction](references/art-direction.md#develop-the-visual-idea) to select a composition with a product-specific visual idea. Carry it into layout and detail, beyond one attractive image. Implement that decision consistently and revise affected decisions when usability conflicts emerge.
 - Use [implementation choices](references/implementation-spec.md#implementation-choices) to select DOM/CSS, images, SVG, Canvas, or real-time 3D. Modeling is optional: use it when explicitly requested or essential to the core experience. Sophistication, depth, or material richness alone does not require a 3D engine.
 - Keep the specification in existing project design or work records, outside the product UI. Implementation chunks need only relevant decisions, interfaces, and completion criteria. Local adjustments require neither extra documentation nor a fixed approval stage.
 - For complex materials, inspect existing components and selected recipes first. Prepare suitable assets and define structure, parameters, and state before implementation to reduce repeated invention.

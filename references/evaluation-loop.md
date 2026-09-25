@@ -18,6 +18,8 @@ For recurring defects, check whether references are visible, the specification i
 | --- | --- |
 | Missing visible reference or mechanism evidence | Open a concrete case and establish triggers and states instead of adding adjectives |
 | Ambiguous or conflicting specification | Fix relevant decisions about composition, necessary mechanisms, parameters, and completion criteria |
+| Coherent but aesthetically undistinguished result | Revisit the [visual idea and art-direction review](art-direction.md); compare composition and craft with the selected references before adding effects |
+| Concept image drifts from a concrete brief | Check which decisions reached the actual generation prompt; revise the prompt or image without treating a static mockup as an implemented interface |
 | Code or state defect | Reproduce and locate event, data, lifecycle, or resource errors |
 | Valid code but mismatched rendering | Compare equivalent screenshots and real interactions; adjust proportions, surfaces, or timing and recheck |
 
