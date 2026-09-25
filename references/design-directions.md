@@ -18,15 +18,37 @@ Kinetic Typography, Game-like UI, and Generative UI extend the six core methods 
 ## Selection and combination
 
 1. Identify the product objects, critical actions, density, brand, and environment through theme research. Determine which methods add meaningful expression.
-2. Select a leading method and add complementary methods as needed. The task determines the number: there is no all-six requirement or fixed quota. A single suitable method can be enough.
+2. Establish a leading visual language from the product and references using [visual compatibility](#visual-compatibility), then choose methods that express it. The task determines the number: there is no all-six requirement or fixed quota. A single suitable method can be enough.
 3. For every selected method, specify its role, region, input/state, and expected result. A method may span regions, and a region may combine depth, material, and feedback. A list of names is not a combination.
-4. Coordinate light direction, surface relationships, color hierarchy, silhouettes, and motion rhythm. Distinguish restrained regions from expressive ones. Avoid transparency that damages reading, competing animations, and decoration that blocks input.
+4. Translate adopted reference details into the same visual language. Coordinate typography, icon weight, shape, light, color roles, and motion; specify which qualities remain shared and which vary by component role. Distinguish restrained regions from expressive ones.
 5. Choose CSS, SVG, images, Canvas, or real-time graphics using [implementation choices](implementation-spec.md#implementation-choices). Decide what should happen before deciding how to render it.
-6. Build a representative region that demonstrates the combination. Check that each selected method works and that they jointly support the task before expanding. Evaluate mechanisms and product fit, not resemblance to a concept illustration.
+6. Build a representative region with actual content, a primary action, and neighboring supporting controls. Review their compatibility together before expanding. A polished isolated button cannot establish a coherent page. Evaluate mechanisms and product fit, not resemblance to a concept illustration.
 
 An editor might use Spatial for layers, Liquid Glass for tools, and Tactile for actions. An expressive brand page might use Expressive for hierarchy and local Hypermaterial or Shader for content-related visuals. These are reasoning examples, not fixed mappings from page type to style.
 
 Make an active selection when the direction is open. Respect explicit style constraints, existing systems, and local repairs. Preserve the product rather than changing its domain or content merely to create novelty.
+
+## Visual compatibility
+
+Method compatibility is not aesthetic compatibility. Spatial describes organization, Tactile describes feedback, and Shader describes rendering; none specifies a ready-made visual identity. Technically compatible effects can still produce conflicting typography, silhouettes, or materials.
+
+Use the existing specification to make these decisions concrete:
+
+- **Visual language:** Describe the page through its type proportions, geometric character, surface treatment, image treatment, and emotional tone. Ground these choices in the actual content and brand. A method list or adjectives such as premium and futuristic are insufficient.
+- **Reference translation:** Extract a useful relationship from each reference and adapt it to this language. Borrow a control's press behavior without automatically borrowing its color, inflated contour, font, and lighting. Shared accent color alone does not reconcile unrelated component families.
+- **Material roles:** Assign expressive treatment by role: primary action, secondary control, persistent navigation, content surface, or temporary layer. Define resting and active appearances separately. For tactile controls, identify how force changes the surface instead of applying the same raised finish to every interactive element. Strong volume remains appropriate when supported by the chosen identity.
+- **Content relationship:** Decide whether the interface frames the content, echoes it, or intentionally contrasts with it. A gallery of varied projects needs a coherent host interface, not a new host style for each thumbnail. Preserve the identity of embedded work. Deliberate contrast should support emphasis through composition and hierarchy; neither palette matching nor universal neutrality is required.
+
+Before expanding, inspect the representative region at normal viewing size and in its relevant states:
+
+| Check | Revision trigger | Correction |
+| --- | --- | --- |
+| Family resemblance | Controls appear sourced from unrelated systems despite sharing a color | Reconcile type, icon weight, curvature, edge treatment, and spacing while preserving role differences |
+| Material hierarchy | Navigation, filters, secondary actions, and primary actions receive equally strong volume or highlights | Redistribute visual weight according to action priority and layer ownership |
+| Content fit | Interface materials and imagery compete without an intentional relationship | Adjust the host treatment or asset presentation within the chosen direction; retain valid content and layout |
+| Combined expression | Individual effects are recognizable, but their assembled result conflicts with the intended identity | Revise their placement, intensity, or combination before adding detail; retain required mechanisms |
+
+Assess compatibility as a visible result, not a count of matching tokens. If the combination fails, identify the conflicting qualities and change those decisions. Removing all material expression or switching to a familiar neutral theme does not resolve a failed combination by itself.
 
 ## Optional extensions
 

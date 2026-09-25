@@ -51,7 +51,7 @@ Neither compensates for the other. A usable but visually incomplete result fails
 
 For each adopted reference relationship, identify its location at a normal viewport/state and compare expressive intensity with the specification. Glass inside a product model does not prove glass layering in the interface. Functional color/image switching does not prove coherent scene lighting or physical feedback. Correct missing relationships before adding technology labels; unrelated regions need no extra effects.
 
-Evaluate the combination as a whole: do the methods have distinct jobs, share suitable light/color/motion rules, and avoid competing for attention or input? Individually polished demos may still conflict when assembled. Unselected categories need no implementation; selected ones must exist beyond documentation.
+Evaluate the combination using the [visual compatibility checks](design-directions.md#visual-compatibility), including adjacent controls and actual content. Passing individual method checks does not compensate for a conflicting assembled visual language. Unselected categories need no implementation; selected ones must exist beyond documentation.
 
 ## Prevent direction drift
 

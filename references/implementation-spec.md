@@ -8,7 +8,7 @@ Use for new designs or full redesigns. Fill in concrete decisions from the brief
 | --- | --- |
 | Product boundary | Main task, original content, critical actions, implementation scope, and simulation boundary |
 | Reference basis | Concrete sources and observations for similar tasks, themes, and expression; adoption/rejection reasons and unverified items |
-| Method combination | Selected core methods, roles, and regions; shared color, light, silhouette, and motion rules; reasons for tradeoffs |
+| Method combination | Product-specific visual language; selected methods and roles; translated reference relationships; shared type/shape/light/motion rules and role-specific material intensity; relationship between interface and content |
 | Visual target | Method/reference relationship → project region/state → suitable expressive intensity → evidence; whether any image is an explicit reproduction target |
 | Invariants and parameters | Relationships and states that must remain observable; adjustable colors, sizes, and intensity that must not erase the mechanism |
 | First-viewport structure | Location and priority of content, tools, and supporting material; viewport-appropriate tracks, minmax or maximum-width rules; scroll ownership |
