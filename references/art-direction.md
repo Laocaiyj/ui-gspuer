@@ -2,11 +2,29 @@
 
 Use for new visual concepts, full interface design, or feedback that a coherent result still lacks artistic distinction. For local repairs, preserve the established direction. This guide supports deliberate design decisions; it does not certify professional stature or guarantee a particular aesthetic outcome.
 
+## Identify the usage context
+
+Determine what users come to do, how often they return, and where the interface runs. Use existing routes, screens, workflows, and project configuration before asking. Classify individual surfaces when one product serves several purposes.
+
+| Usage context | Design priorities |
+| --- | --- |
+| Public discovery, presentation, or decision-making | Explain the offering with credible content, support exploration and an appropriate next action; narrative and display typography can carry identity |
+| Reading, reference, or publishing | Prioritize legibility, orientation, navigation, and content rhythm; neither a sales funnel nor a dashboard is assumed |
+| Repeated creation, editing, or management | Keep current objects, tools, state, and frequent actions accessible; preserve work and continuity instead of repeatedly presenting an introduction |
+
+These contexts do not mandate layouts or styles. Separately account for browser navigation and URLs, desktop window behavior and keyboard use, or mobile touch and constrained space as applicable. A responsive website and an installed app can share visual language while needing different navigation and interaction patterns. Reuse existing host chrome; avoid drawing imitation window controls inside the content. Do not change frameworks or delivery platforms merely to match a reference.
+
+## Interpret ordinary language
+
+Treat the user's mood words, dislikes, task descriptions, and screenshots as design inputs. Translate them into choices about hierarchy, density, typography, shape, material, color roles, and motion. Check those choices against the usage context and reference evidence before assigning method names. There is no fixed mapping from an adjective to a palette or one of the six methods.
+
+When preferences are absent, derive a direction from the product, audience, content, and researched examples. When a preference is ambiguous but low risk, state a concrete interpretation and proceed. If plausible interpretations would materially change the experience, ask a short question in ordinary language about the desired experience or a reference; do not require a taxonomy choice. Select methods after the visual intention is clear, and evaluate the visible result rather than whether a style label appears in the brief.
+
 ## Develop the visual idea
 
 Start with the user's content and task. Use [design research](design-research.md) for both workflow references and specific art-direction references. Inspect actual imagery and composition, not only project descriptions. If only text is available, label that evidence and do not claim a visual comparison.
 
-Define what should distinguish this particular experience. Connect that idea to the user's activity, then express it through composition, typography, imagery, and selected methods. A genre label, palette, or mood is only one input. For example, a listening interface could organize around a release's track sequence and liner notes, or around a manipulable listening space. These imply different proportions and actions; changing a conventional player's colors does not choose between them. Preserve familiar controls where they help the task.
+Define what should distinguish this particular experience. Connect that idea to the user's activity, then express it through composition, typography, imagery, and selected methods. A genre label, palette, or mood is only one input. Derive the dominant object, content sequence, and control relationships from the task before choosing regions and proportions. Preserve familiar controls where they help the task.
 
 For an open brief, compare plausible directions in a short working note before committing. Compare focal structure, content rhythm, and the relationship between imagery and controls, rather than color variants. Select the direction with the strongest product fit and visible distinction. This does not require generating multiple paid images, creating an approval stage, or redesigning a user-specified layout.
 
@@ -23,11 +41,17 @@ Resolve these decisions in the existing specification or image brief:
 
 Apply [visual compatibility](design-directions.md#visual-compatibility) to integrate the decisions. Sophistication can be quiet or expressive. Darkness, gold, serif type, distortion, asymmetry, or complexity is not a quality threshold. Use them when the product and composition justify them; retain required material expression.
 
+## Carry the direction through the task
+
+For a full redesign, select consequential states from the actual workflow, including content absence and the primary action's destination when applicable. Define how the visual idea carries into their grouping, proportions, controls, and feedback. Shared colors alone do not establish continuity. Dense editing can be quieter than browsing while retaining the same type, shape, and state language; do not decorate every field equally.
+
+Use actual data where available. Review an empty state and a populated state with clearly identified fixtures when needed, without adding fixtures to the user's saved data. Size empty-state illustration and guidance around starting the task; reassess controls that have no useful purpose until content exists. For a static concept, state which view is shown and leave unseen states unverified rather than expanding the requested deliverable.
+
 ## Concept-image workflow
 
 For a requested static interface image, use the host's available image-generation workflow. Perform research and art direction first; carry the resulting decisions into the actual generation prompt rather than relying on the generator to infer them from the skill name.
 
-The prompt should specify the output format and view, product task and shown state, selected visual idea, concrete composition, type and image treatment, material placement, exact essential labels in the requested language, and details that must remain unchanged. Identify any input image as a reproduction target, a reference, or an edit target. Keep critical content readable; reduce incidental copy when it would become illegible. State positive visual relationships before concise exclusions specific to observed failures.
+Write the generation prompt from the current specification, following the [content and reuse boundaries](../SKILL.md#content-and-reuse-boundaries). Specify the output format and view, product task and shown state, selected visual idea, concrete composition, type and image treatment, material placement, exact essential labels in the requested language, and details that must remain unchanged. Identify any input image as a reproduction target, a reference, or an edit target. Keep critical content readable; reduce incidental copy when it would become illegible. State positive visual relationships before concise exclusions specific to observed failures.
 
 Inspect the generated image at overall and detail scales. Compare it against the chosen visual idea and the [review criteria](#review-the-art-direction). Check label accuracy, selected states, units, and numeric controls for internal consistency even in fictional examples. Revise the identified discrepancy while preserving successful decisions. A direction error requires revising the composition or brief; a local edge or label error calls for a local edit.
 
@@ -49,6 +73,4 @@ A familiar layout can succeed through exceptional proportions and execution; nov
 
 Separate a manually directed showcase from an independent skill run. Record material human interventions and revision stages when comparing their outcomes. Do not infer reliable first-pass performance, model equivalence, or artist-level results from a curated image. If repeated corrections do not close the visual gap, report the remaining discrepancy rather than continually appending generic prohibitions to the skill.
 
-## Research note
-
-Reviewed on 2026-09-26: [Pentagram's De Bijloke identity](https://www.pentagram.com/work/de-bijloke). The author describes musical notation and oscilloscope experiments as the basis for a flexible identity, with clear typography balancing expressive graphics. The original page text and a flag application were inspected; the full motion system was not tested. Transferable lesson: derive a visual idea from the subject and carry it through a system. This is an art-direction reference, not a Web UI template or evidence that the skill achieves comparable quality.
+For previously studied references and their evidence boundaries, consult the [case index](studied-cases.md) when relevant to the current research.

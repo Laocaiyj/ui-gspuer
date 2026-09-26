@@ -24,7 +24,7 @@ Kinetic Typography, Game-like UI, and Generative UI extend the six core methods 
 5. Choose CSS, SVG, images, Canvas, or real-time graphics using [implementation choices](implementation-spec.md#implementation-choices). Decide what should happen before deciding how to render it.
 6. Build a representative region with actual content, a primary action, and neighboring supporting controls. Review their compatibility together before expanding. A polished isolated button cannot establish a coherent page. Evaluate mechanisms and product fit, not resemblance to a concept illustration.
 
-An editor might use Spatial for layers, Liquid Glass for tools, and Tactile for actions. An expressive brand page might use Expressive for hierarchy and local Hypermaterial or Shader for content-related visuals. These are reasoning examples, not fixed mappings from page type to style.
+Select each method from a needed relationship in the current task. Page type alone does not determine a combination; the table describes capabilities rather than preset bundles.
 
 Make an active selection when the direction is open. Respect explicit style constraints, existing systems, and local repairs. Preserve the product rather than changing its domain or content merely to create novelty.
 

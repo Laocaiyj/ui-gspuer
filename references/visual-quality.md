@@ -11,6 +11,16 @@ Establish the target mapping in [direction acceptance](direction-acceptance.md) 
 3. Compare first-viewport emphasis and action paths before implementation. A workspace can organize around the current task and a portfolio around work proportions; a slogan is not a universal starting point.
 4. Express identity through visible decisions, such as a compact document index paired with a large preview, cropping that reveals product detail, or a chronology-based arrangement. Premium, modern, or immersive alone cannot guide implementation.
 
+## Purposeful interface copy
+
+For each heading, caption, badge, helper message, and status, identify its purpose: orientation, content, action, state, guidance, or a justified brand message. Remove text that merely restates nearby information or describes the designer's intent. Retain expressive writing when it serves the actual audience and context; concise does not mean stripping useful explanation or personality.
+
+Use the current project's vocabulary and locale. Avoid decorative translations, invented issue numbers, or pseudo-metadata unless they represent real content relationships. Write action labels around the actual outcome. Put field constraints near the field, recovery guidance near the error, and accurate state information where it affects a decision. Placeholders supplement persistent labels rather than replace them.
+
+For empty states, explain the absence only when needed and offer a relevant next action. Repeated workspaces need less introductory copy than first-use onboarding or public presentation. Preserve necessary privacy, storage, and destructive-action information, but avoid duplicating it as permanent decoration. Counts and status claims must come from real state or clearly identified fixtures.
+
+Apply a removal check: if deleting a phrase loses no useful information, navigation cue, decision support, or intentional brand meaning, remove it and rebalance the layout rather than replacing it with another slogan.
+
 ## Symptoms and corrections
 
 | Symptom | Problem | Correction |
@@ -46,11 +56,12 @@ A familiar pattern is not automatically a defect. Judge its purpose and retain e
 
 ## Before delivery: inspect the rendered page
 
-- **Rename check:** Imagine replacing the brand and accent color. If all copy, layout, and metrics still fit any product unchanged, revisit the content structure. Familiar navigation and established form conventions need not be made novel.
+- **Reuse check:** Check distinctive names, headings, imagery, sample records, and major layout relationships against the brief and references actually used. Each should come from the current project, be an explicit reference adoption, or be created for this task. Replace unsupported carryover at its source, including the generation prompt when applicable. A renamed sample product with the same narrative and composition still needs review; ordinary labels and appropriate conventions are not defects.
+- **Structure check:** For each major region, identify the current content or action that requires it. Revisit inherited regions with no task-specific purpose; changing their names, colors, or corner radii is insufficient. Preserve useful familiar layouts and user-specified structures rather than forcing novelty.
 - **First-viewport check:** Can visitors identify the object, main content, and next action? In a workspace, a slogan must not displace the task. On a marketing page, assess how hero, value proposition, and action support conversion.
 - **Hierarchy check:** At reduced viewing size, are subject, supporting content, and background distinguishable? Adjust scale, density, and containers when every card competes or every region glows.
 - **Typography check:** Use real localized content and longest values to inspect tracking, line height, measure, and wrapping. Align icons, numbers, units, and text. Tight Latin display tracking is not automatically suitable for CJK text.
-- **Content check:** Remove empty slogans, decorative terminology, and developer notes. Verify units, ranges, totals, trend evidence, and chart alignment. Sample data must also be coherent.
+- **Content check:** Apply the [copy review](#purposeful-interface-copy) to the visible state. Verify units, ranges, totals, trend evidence, and chart alignment. Sample data must also be coherent.
 - **Detail check:** Inspect page endings, scrolling transitions, narrow layouts, and overlays for background seams, unintended gaps, clipped content, missing navigation, and displaced controls.
 - **Action check:** Pointer, keyboard, and touch behavior must match visual promises. Success feedback requires an actual result, and state remains understandable with reduced motion.
 

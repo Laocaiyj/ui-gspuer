@@ -83,9 +83,9 @@ For an existing manual installation, back up the directory before replacing it. 
 Invoke the skill with the product goal and constraints:
 
 ```text
-Use $ui-gspuer to redesign this audio editor. Preserve its recording data,
-editing actions, brand, and stack. Research relevant products and visual
-references, select suitable methods, then implement and verify the result.
+Use $ui-gspuer to redesign the current interface. Preserve its content,
+critical actions, brand, and stack. Research this product's workflows and
+visual context, select suitable methods, then implement and verify the result.
 ```
 
 For a focused change, specify the boundary:

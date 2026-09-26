@@ -53,6 +53,8 @@ For each adopted reference relationship, identify its location at a normal viewp
 
 Evaluate the combination using the [visual compatibility checks](design-directions.md#visual-compatibility), including adjacent controls and actual content. Passing individual method checks does not compensate for a conflicting assembled visual language. Unselected categories need no implementation; selected ones must exist beyond documentation.
 
+For a full redesign, compare the main view with consequential states identified in the specification. Check that the visual idea survives changes in content density and task mode through grouping, proportions, and control behavior, not only shared colors. A polished entry view does not establish the quality of the destination reached by its main action. Record unseen or untested states as unverified. Build success and retained functionality do not satisfy this visual review.
+
 ## Prevent direction drift
 
 - Replacing a digital-material interface with a beige page, large serif headings, and ruled notes loses the goal even if cleaner. Preserve content and function while restoring the selected materials and spatial relationships.

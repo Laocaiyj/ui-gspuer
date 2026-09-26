@@ -6,9 +6,11 @@ Use for new designs or full redesigns. Fill in concrete decisions from the brief
 
 | Field | Required decision |
 | --- | --- |
-| Product boundary | Main task, original content, critical actions, implementation scope, and simulation boundary |
+| Product boundary | Main task, original content, critical actions, implementation scope, and simulation boundary; distinguish required invariants from existing presentation open to redesign |
+| Usage context | Purpose of each surface, first-use versus repeat-use needs, delivery platform, input modes, and applicable host/navigation conventions |
+| Content basis | Supplied identity/assets/data, task-specific sample content needed, and reference details explicitly adopted under the [reuse boundaries](../SKILL.md#content-and-reuse-boundaries) |
 | Reference basis | Concrete sources and observations for similar tasks, themes, and expression; adoption/rejection reasons and unverified items |
-| Art direction | [Visual idea](art-direction.md#develop-the-visual-idea), focal composition, type/image treatment, and distinctive details that express the product beyond a hero asset |
+| Art direction | User preferences or stated assumptions translated into concrete choices; [visual idea](art-direction.md#develop-the-visual-idea), focal composition, type/image treatment, and distinctive details beyond a hero asset |
 | Method combination | Product-specific visual language; selected methods and roles; translated reference relationships; shared type/shape/light/motion rules and role-specific material intensity; relationship between interface and content |
 | Visual target | Method/reference relationship → project region/state → suitable expressive intensity → evidence; whether any image is an explicit reproduction target |
 | Invariants and parameters | Relationships and states that must remain observable; adjustable colors, sizes, and intensity that must not erase the mechanism |
@@ -16,6 +18,7 @@ Use for new designs or full redesigns. Fill in concrete decisions from the brief
 | Visual parameters | Actual values or project tokens for relevant surfaces, text, accents, typography, spacing, radii, shadows, and motion |
 | Representative region | One region containing the dominant feature and a real action; reusable assets/components and parameters to change |
 | State contract | Trigger → visible change → commit/cancel → result; rapid reentry, keyboard path, and teardown |
+| Visual continuity | Consequential workflow states, their composition and method expression, shared visual rules, and justified differences in density or emphasis |
 | Implementation constraints | Relevant pinned dependencies, renderer, and data/state ownership; include SDK, font-axis, or graphics constraints only when involved |
 | Implementation choice | A suitable route and its rationale; identify essential capabilities if using real-time 3D. Static assets and 2D solutions can be primary implementations |
 | Adaptation and fallback | Rearrangement conditions and tool destinations; behavior without filters or with reduced motion; long-text handling |
@@ -31,12 +34,7 @@ Category illustrations explain methods rather than define a project's acceptance
 
 Write one sentence defining the project's visual direction, then map the relationships to adopt. Premium, modern, tactile, or a technology name alone is insufficient.
 
-| Adopted relationship | Project region and state | Observable result | Acceptance method |
-| --- | --- | --- | --- |
-| A light source changes environmental emphasis | Scene and its controls in light/dark states | Subject, environment brightness, shadows, and action emphasis change coherently from shared state | Compare endpoints and transition for lighting logic and readability |
-| Different content needs different presentation rhythm | Hero, mechanism explanation, and contextual scene | Each composition serves its content while adjacent sections retain a shared visual language | Inspect the whole page and transitions, not only one hero image |
-
-These examples explain mapping; they do not require lighting effects or particular layouts. Specify actual regions, states, and expected results for adopted relationships. Add screenshot or interaction evidence after implementation. Missing expression needs revision, not an explanatory design card.
+For each adopted relationship, record: **source observation → current-project region and state → observable result → acceptance method**. Name actual objects and actions from this task. Specify how the relationship changes to fit the current content instead of importing the source's page structure. Add screenshot or interaction evidence after implementation. Missing expression needs revision, not an explanatory design card.
 
 Distinguish **asset quality** (detail in a product model/image), **page art direction** (composition, light, color, type, surfaces, and content relationships), and **interaction expression** (perceptible response to input). Evaluate each against the user goal. A detailed model may support a page without establishing interface materials, spatial hierarchy, or dynamics. Consistency does not require turning every control into glass.
 
@@ -63,4 +61,4 @@ State modeling means describing inputs and product state, not producing 3D asset
 
 Each chunk needs only the relevant specification, existing files, selected components/references, data and state ownership, output/events, and observable completion criteria. Establish layout and content, then representative materials and actions, then full-page adaptation and review. Chunks are bounded tasks with results, not requests to disclose hidden reasoning or lengthy plans.
 
-Example: Preserve existing recording data and layout. Implement a playback toolbar in front of the canvas, with surfaces and focus states derived from the selected methods. Bind the existing media instance and retain seeking on narrow screens. Verify actual progress, keyboard seeking, and solid-surface fallback while preserving the brand and information architecture.
+Describe each chunk using the current product's objects and actions. Carry over its state contract and acceptance criteria without introducing a sample application's content or layout.

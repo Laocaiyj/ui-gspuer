@@ -6,7 +6,7 @@ Research how the six core methods fit this product and complement one another. T
 
 ## What to search
 
-Extract keywords from the industry, audience, content format, and page task. Search in languages relevant to the product and its sources.
+Extract keywords from the industry, audience, content format, and page task. Search in languages relevant to the product and its sources. Use the [usage context](art-direction.md#identify-the-usage-context) to distinguish actual workflow references from a product's promotional website; each supplies different evidence. Derive search terms from ordinary user descriptions as well as relevant design vocabulary, without requiring the user to supply style names.
 
 | Research axis | Sources to seek | Question to answer |
 | --- | --- | --- |

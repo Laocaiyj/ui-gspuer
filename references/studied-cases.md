@@ -16,6 +16,12 @@ Source review baseline: **2026-09-23**. The table records documentation review, 
 
 The skill distributes methods and case research, without fixed assets or component demos. Implement and verify selected mechanisms in the current project; acceptance does not transfer from a reference case.
 
+## Art-direction research
+
+Consult when relevant to the current subject; these cases do not supply default content or composition.
+
+- Reviewed on **2026-09-26**: [Pentagram's De Bijloke identity](https://www.pentagram.com/work/de-bijloke). The author describes musical notation and oscilloscope experiments as the basis for a flexible identity, with clear typography balancing expressive graphics. The original page text and a flag application were inspected; the full motion system was not tested. Transferable lesson: derive a visual idea from the subject and carry it through a system. This is an art-direction reference, not a Web UI template or evidence that the skill achieves comparable quality.
+
 ## Earlier supplementary cases
 
 Evidence recorded on **2026-09-21**. These entries retain their original verification scope:

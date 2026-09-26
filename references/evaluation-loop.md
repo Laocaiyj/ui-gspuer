@@ -8,8 +8,6 @@ Hold the brief, content, viewport, and current state constant. Compare the refer
 
 `Region | Expected | Actual evidence | Change | Recheck result`
 
-For example, a playback toolbar should be translucent and layered, but appears as an opaque footer. Correct its surface and shadow, preserve navigation, and capture the same viewport again.
-
 Fix action/readability blockers immediately, then missing composition or direction, then control consistency and spacing. Address a group of issues with a shared cause, preserve successful design, and recheck affected states. A button-spacing defect does not justify rebuilding the page.
 
 For recurring defects, check whether references are visible, the specification is concrete, or assets/components are missing. Improve those inputs or use a working component rather than accumulating prohibitions and retry quotas. Report unresolved gaps honestly. If the user approves escalation, supply relevant decisions, screenshots, files, and reproduction steps.
@@ -20,6 +18,7 @@ For recurring defects, check whether references are visible, the specification i
 | Ambiguous or conflicting specification | Fix relevant decisions about composition, necessary mechanisms, parameters, and completion criteria |
 | Coherent but aesthetically undistinguished result | Revisit the [visual idea and art-direction review](art-direction.md); compare composition and craft with the selected references before adding effects |
 | Concept image drifts from a concrete brief | Check which decisions reached the actual generation prompt; revise the prompt or image without treating a static mockup as an implemented interface |
+| Unrelated reference content or composition recurs | Trace it to the brief, loaded examples, or generation prompt using the [reuse review](visual-quality.md#before-delivery-inspect-the-rendered-page); replace unsupported carryover and preserve valid project content |
 | Code or state defect | Reproduce and locate event, data, lifecycle, or resource errors |
 | Valid code but mismatched rendering | Compare equivalent screenshots and real interactions; adjust proportions, surfaces, or timing and recheck |
 
@@ -47,7 +46,7 @@ Record both model and reasoning effort. Hold the task, starting code, skill revi
 
 Use different task types to avoid learning one workspace layout:
 
-- Audio/image editor: clear content/tool relationships and one real editing action.
+- Object-editing task: clear content/tool relationships and one real editing action.
 - Dense data interface: shared baselines, stable density, and real filtering without forced giant decoration.
 - Mobile page for a specified brand: retained brand/content, a critical action, and narrow-screen adaptation.
 
