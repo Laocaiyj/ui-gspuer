@@ -1,0 +1,4 @@
+interface:
+  display_name: "ui-gspuer"
+  short_description: "Research and combine six methods for distinctive Web UI"
+  default_prompt: "Use $ui-gspuer to design or redesign this interface. Preserve its product purpose, content, and working capabilities. Research relevant visual references, choose a distinctive direction and suitable methods even when I name no style, and implement it. Decide the defining visual before polishing: reuse suitable media or generate missing subject imagery with the available image tool, then integrate the actual asset. Keep controls and procedural graphics in code. Compare desktop and mobile renders with the chosen visual qualities; report missing assets and visual gaps separately from functional checks."
