@@ -2,7 +2,7 @@
 
 Use for new pages, full redesigns, and feedback about generic or AI-looking design. These are actionable quality constraints, not a way to identify who or what generated a page, and not a blacklist of colors or components. Analyze supplied images for visual relationships; their copy does not automatically become a requirement.
 
-Establish the target mapping in [direction acceptance](direction-acceptance.md) first, then remove problems within that direction. Preserve requested glass, highlights, springs, and depth even if external lists prohibit them. Correct repetitive application instead of discarding the goal. Lost direction is a major revision item.
+Use the existing [visual target and reference mapping](implementation-spec.md#visual-target-and-reference-mapping) as the review basis, then check [direction acceptance](direction-acceptance.md) and correct problems within that direction. If the mapping is absent, identify targets from the brief and available evidence and mark uncertain targets; a review-only request does not authorize creating another specification or changing product files. Preserve requested glass, highlights, springs, and depth even if external lists prohibit them. Correct repetitive application instead of discarding the goal. Lost direction is a major revision item.
 
 ## Before design: decide how content is used
 
@@ -73,7 +73,7 @@ Reject a template structure that conflicts with the task, development explanatio
 
 Without browser access, inspect structure, content, and implementation and list unverified items. Self-description is not visual evidence. Report observable corrections rather than claiming to eliminate all AI-looking design.
 
-Use five dimensions: direction match, overall design, product identity, execution detail, and functional usability. Mark each **pass / needs revision / unverified** with evidence. Do not hide blockers in an average score. Lead with findings before explaining retained choices. Ordinary delivery needs only material findings and limitations, not the entire checklist.
+Use the [five-dimension acceptance threshold](evaluation-loop.md#acceptance-threshold) to record conclusions and supporting evidence. Lead with findings before explaining retained choices. Ordinary delivery needs only material findings and limitations, not the entire checklist.
 
 ## Scope examples
 
